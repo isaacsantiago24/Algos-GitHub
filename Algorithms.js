@@ -5,13 +5,11 @@ for (var i = 1; i <= 255; i++) {
 }
 
 // odd numbers 1-1000
-
 for (var i = 1; i <= 1000; i = i + 2) {
     console.log(i);
 }
 
 //print sum of all odd numbers 1-5000
-
 var sum = 0;
 for (var i = 1; i <= 5000; i = i + 2) {
     sum = sum + i;
