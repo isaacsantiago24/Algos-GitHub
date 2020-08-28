@@ -1,15 +1,16 @@
 //Recursion (adding)
 //write a function that takes in a number as an argument
 
-function rSum(num)
+
+function rSums(num)
 {
     if (num ==1){
         return 1;
     } else {
-        return num + rSum(num-1);
+        return num + rSums(num-1);
     }
 }
-rSum(5)
+rSums(5)
 
 //iFactorial(1) = 1                  => 1
 //iFactorial(2) = 2 * 1              => 2
